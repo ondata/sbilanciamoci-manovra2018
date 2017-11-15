@@ -193,7 +193,7 @@
                   <!-- <td><a href="javascript:void(0);" ex:onclick-subcontent="Tip('<div class=\'tip\'><strong>Descrizione: </strong>{{.Descrizione}}</div>', WIDTH, 400,BGCOLOR,'',BORDERWIDTH,0)" onmouseout="UnTip()"><span ex:content=".label"><span ex:content=".label"></span></a></td> -->
                   <td>
                   <!-- Shows tip if Descrizione exists -->
-                      <a ex:if-exists=".Descrizione" href="javascript:void(0);" ex:onmouseover-subcontent="Tip('<div class=\'tip\'><strong>Descrizione: </strong>{{.Descrizione}}</div>', HEIGHT, -400,WIDTH, -800,OFFSETX, -200,OFFSETY, -50, CLICKSTICKY, true, STICKY, true, BGCOLOR,'',BORDERWIDTH,0,FONTSIZE,'12px')" onmouseout="UnTip()"><span ex:content=".label"></span></a>
+                      <a ex:if-exists=".Descrizione" href="javascript:void(0);" ex:onmouseover-subcontent="Tip('<div class=\'tip\'><strong>Descrizione: </strong>{{.Descrizione}}</div>', HEIGHT, -400,WIDTH, -800,OFFSETX, -200,OFFSETY, -50, CLICKSTICKY, true, STICKY, true, CLICKCLOSE,true, BGCOLOR,'',BORDERWIDTH,0,FONTSIZE,'12px')" onmouseout="UnTip()"><span ex:content=".label"></span></a>
                       <!-- only if Descrizione not exists -->
 
                     <span ex:content="if(exists(.Descrizione), '',  .label)"></span>
