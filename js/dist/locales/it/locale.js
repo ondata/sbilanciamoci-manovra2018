@@ -66,8 +66,8 @@ Exhibit.Localization.importLocale("it", {
     "%import.failedAccessHttpStatus": " (HTTP %1$d)",
     "%import.missingFragment": "Failed to locate fragment in %1$s",
 
-    "%database.itemType.label": "proposta (scorri il mouse sul titolo per maggiori dettagli)",
-    "%database.itemType.pluralLabel": "proposte (scorri il mouse sul titolo per maggiori dettagli)",
+    "%database.itemType.label": "proposta (scorri il mouse sul titolo di ciascuna per maggiori dettagli)",
+    "%database.itemType.pluralLabel": "proposte (scorri il mouse sul titolo di ciascuna per maggiori dettagli)",
     "%database.labelProperty.label": "label",
     "%database.labelProperty.pluralLabel": "labels",
     "%database.labelProperty.reverseLabel": "label of",
